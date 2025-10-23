@@ -5,6 +5,7 @@
         "This file is @generated automatically"
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     "content-hash": "985552b948e96bda9ef9596902ad8557",
     "packages": [
         {
@@ -85,6 +86,11 @@
             "time": "2025-08-20T19:15:30+00:00"
         },
         {
+=======
+    "content-hash": "088634186b2a1a3c4bc549c76068310c",
+    "packages": [
+        {
+>>>>>>> 6009a20 (LabD done)
 =======
     "content-hash": "088634186b2a1a3c4bc549c76068310c",
     "packages": [
@@ -1282,6 +1288,7 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "name": "masterminds/html5",
             "version": "2.10.0",
             "source": {
@@ -1349,6 +1356,8 @@
             "time": "2025-07-25T09:04:22+00:00"
         },
         {
+=======
+>>>>>>> 6009a20 (LabD done)
 =======
 >>>>>>> 6009a20 (LabD done)
             "name": "monolog/monolog",
@@ -1454,6 +1463,7 @@
             "time": "2025-03-24T10:02:05+00:00"
         },
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
             "name": "myclabs/deep-copy",
             "version": "1.13.4",
@@ -1693,6 +1703,8 @@
         {
 =======
 >>>>>>> 6009a20 (LabD done)
+=======
+>>>>>>> 6009a20 (LabD done)
             "name": "phpdocumentor/reflection-common",
             "version": "2.2.0",
             "source": {
@@ -1915,6 +1927,7 @@
             "time": "2025-08-30T15:50:23+00:00"
         },
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
             "name": "phpunit/php-code-coverage",
             "version": "11.0.11",
@@ -2362,6 +2375,8 @@
         {
 =======
 >>>>>>> 6009a20 (LabD done)
+=======
+>>>>>>> 6009a20 (LabD done)
             "name": "psr/cache",
             "version": "3.0.0",
             "source": {
@@ -2668,6 +2683,7 @@
             "time": "2024-09-11T13:17:53+00:00"
         },
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
             "name": "sebastian/cli-parser",
             "version": "3.0.2",
@@ -3709,6 +3725,8 @@
         {
 =======
 >>>>>>> 6009a20 (LabD done)
+=======
+>>>>>>> 6009a20 (LabD done)
             "name": "symfony/asset",
             "version": "v7.3.0",
             "source": {
@@ -3778,6 +3796,7 @@
             "time": "2025-03-05T10:15:41+00:00"
         },
         {
+<<<<<<< HEAD
 <<<<<<< HEAD
             "name": "symfony/asset-mapper",
             "version": "v7.3.4",
@@ -3935,6 +3954,8 @@
             "time": "2025-07-10T08:47:49+00:00"
         },
         {
+=======
+>>>>>>> 6009a20 (LabD done)
 =======
 >>>>>>> 6009a20 (LabD done)
             "name": "symfony/cache",
@@ -4367,6 +4388,7 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "name": "symfony/css-selector",
             "version": "v7.3.0",
             "source": {
@@ -4507,6 +4529,8 @@
             "time": "2025-09-10T12:00:31+00:00"
         },
         {
+=======
+>>>>>>> 6009a20 (LabD done)
 =======
 >>>>>>> 6009a20 (LabD done)
             "name": "symfony/dependency-injection",
@@ -4850,6 +4874,7 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "name": "symfony/dom-crawler",
             "version": "v7.3.3",
             "source": {
@@ -4921,6 +4946,8 @@
             "time": "2025-08-06T20:13:54+00:00"
         },
         {
+=======
+>>>>>>> 6009a20 (LabD done)
 =======
 >>>>>>> 6009a20 (LabD done)
             "name": "symfony/dotenv",
@@ -6333,6 +6360,7 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "name": "symfony/maker-bundle",
             "version": "v1.64.0",
             "source": {
@@ -6426,6 +6454,8 @@
             "time": "2025-06-23T16:12:08+00:00"
         },
         {
+=======
+>>>>>>> 6009a20 (LabD done)
 =======
 >>>>>>> 6009a20 (LabD done)
             "name": "symfony/messenger",
@@ -9682,6 +9712,7 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "name": "symfony/web-profiler-bundle",
             "version": "v7.3.4",
             "source": {
@@ -9773,6 +9804,8 @@
         {
 =======
 >>>>>>> 6009a20 (LabD done)
+=======
+>>>>>>> 6009a20 (LabD done)
             "name": "symfony/yaml",
             "version": "v7.3.3",
             "source": {
@@ -9850,6 +9883,7 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "name": "theseer/tokenizer",
             "version": "1.2.3",
             "source": {
@@ -9900,6 +9934,8 @@
             "time": "2024-03-03T12:36:25+00:00"
         },
         {
+=======
+>>>>>>> 6009a20 (LabD done)
 =======
 >>>>>>> 6009a20 (LabD done)
             "name": "twig/extra-bundle",
@@ -10114,11 +10150,14 @@
         }
     ],
 <<<<<<< HEAD
+<<<<<<< HEAD
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": [],
 =======
+=======
+>>>>>>> 6009a20 (LabD done)
     "packages-dev": [
         {
             "name": "masterminds/html5",
@@ -12424,6 +12463,9 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {},
+<<<<<<< HEAD
+>>>>>>> 6009a20 (LabD done)
+=======
 >>>>>>> 6009a20 (LabD done)
     "prefer-stable": true,
     "prefer-lowest": false,
@@ -12433,7 +12475,11 @@
         "ext-iconv": "*"
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "platform-dev": [],
+=======
+    "platform-dev": {},
+>>>>>>> 6009a20 (LabD done)
 =======
     "platform-dev": {},
 >>>>>>> 6009a20 (LabD done)

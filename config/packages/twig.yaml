@@ -1,6 +1,10 @@
 twig:
     file_name_pattern: '*.twig'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+    form_themes: ['bootstrap_5_layout.html.twig']
+>>>>>>> 6009a20 (LabD done)
 =======
     form_themes: ['bootstrap_5_layout.html.twig']
 >>>>>>> 6009a20 (LabD done)
