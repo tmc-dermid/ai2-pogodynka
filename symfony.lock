@@ -50,6 +50,7 @@
             "./bin/phpunit"
         ]
     },
+<<<<<<< HEAD
     "symfony/asset-mapper": {
         "version": "7.3",
         "recipe": {
@@ -65,6 +66,8 @@
             "./importmap.php"
         ]
     },
+=======
+>>>>>>> 6009a20 (LabD done)
     "symfony/console": {
         "version": "7.3",
         "recipe": {

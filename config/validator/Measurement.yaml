@@ -1,0 +1,30 @@
+App\Entity\Measurement:
+    properties:
+        date:
+            - NotBlank:
+                message: 'Date cannot be empty'
+                groups: ['create', 'edit']
+            - Type:
+                type: \DateTimeInterface
+                message: 'Invalid date format'
+                groups: ['create', 'edit']
+
+        celsius:
+            - NotBlank:
+                message: 'Enter a temperature in °C'
+                groups: ['create', 'edit']
+            - Type:
+                type: numeric
+                message: 'Value must be a valid number'
+                groups: ['create',' edit']
+            - Range:
+                min: -90
+                max: 90
+                notInRangeMessage: 'Temperature must be between {{ min }}°C and {{ max }}°C'
+                groups: ['create', 'edit']
+
+        location:
+            - NotBlank:
+                message: 'Choose a location'
+                groups: ['create', 'edit']
+

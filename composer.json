@@ -16,7 +16,10 @@
         "phpdocumentor/reflection-docblock": "^5.6",
         "phpstan/phpdoc-parser": "^2.3",
         "symfony/asset": "7.3.*",
+<<<<<<< HEAD
         "symfony/asset-mapper": "7.3.*",
+=======
+>>>>>>> 6009a20 (LabD done)
         "symfony/console": "7.3.*",
         "symfony/doctrine-messenger": "7.3.*",
         "symfony/dotenv": "7.3.*",
@@ -79,8 +82,12 @@
     "scripts": {
         "auto-scripts": {
             "cache:clear": "symfony-cmd",
+<<<<<<< HEAD
             "assets:install %PUBLIC_DIR%": "symfony-cmd",
             "importmap:install": "symfony-cmd"
+=======
+            "assets:install %PUBLIC_DIR%": "symfony-cmd"
+>>>>>>> 6009a20 (LabD done)
         },
         "post-install-cmd": [
             "@auto-scripts"

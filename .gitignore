@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6009a20 (LabD done)
 ###> symfony/framework-bundle ###
 /.env.local
 /.env.local.php
@@ -13,10 +16,13 @@
 /phpunit.xml
 /.phpunit.cache/
 ###< phpunit/phpunit ###
+<<<<<<< HEAD
 
 ###> symfony/asset-mapper ###
 /public/assets/
 /assets/vendor/
 ###< symfony/asset-mapper ###
 
+=======
+>>>>>>> 6009a20 (LabD done)
 /.idea/

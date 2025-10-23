@@ -1,0 +1,43 @@
+App\Entity\Location:
+    properties:
+        city:
+            - NotBlank:
+                message: 'Enter a city name'
+                groups: ['create', 'edit']
+            - Length:
+                min: 1
+                minMessage: 'City must be at least {{ min }} characters long'
+                groups: ['create', 'edit']
+
+        country:
+            - NotBlank:
+                message: 'Choose a country'
+                groups: ['create', 'edit']
+
+        latitude:
+            - NotBlank:
+                message: 'Enter a latitude'
+                groups: ['create', 'edit']
+            - Regex:
+                pattern: '/^-?\d+(\.\d+)?$/'
+                message: 'Value must be a valid number'
+                groups: ['create', 'edit']
+            - Range:
+                min: -90
+                max: 90
+                notInRangeMessage: 'Latitude must be between {{ min }} and {{ max }}'
+                groups: ['create', 'edit']
+
+        longitude:
+            - NotBlank:
+                message: 'Enter a longitude'
+                groups: ['create', 'edit']
+            - Regex:
+                pattern: '/^-?\d+(\.\d+)?$/'
+                message: 'Value must be a valid number'
+                groups: ['create', 'edit']
+            - Range:
+                min: -180
+                max: 180
+                notInRangeMessage: 'Longitude must be between {{ min }} and {{ max }}'
+                groups: ['create', 'edit']
