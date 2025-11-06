@@ -43,8 +43,17 @@
         {% block body %} {% endblock %}
         </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 6009a20 (LabD done)
 =======
 >>>>>>> 6009a20 (LabD done)
+=======
+
+        {% if is_granted('ROLE_USER') %}
+            <a href="{{ path('app_logout') }}">Logout</a>
+        {% else %}
+            <a href="{{ path('app_login') }}">Login</a>
+        {% endif %}
+>>>>>>> bbd2602 (LabE done)
     </body>
 </html>
